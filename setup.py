@@ -6,7 +6,7 @@ desc = open("readme.rst").read() if os.path.isfile("readme.rst") else ""
 
 setup(
     name='datatables',
-    version='0.4.9',
+    version='0.5.0',
     packages=['datatables'],
     url='https://github.com/orf/datatables/',
     license='MIT',
