@@ -5,8 +5,8 @@ desc = open("readme.rst").read() if os.path.isfile("readme.rst") else ""
 
 
 setup(
-    name='datatables',
-    version='0.5.0',
+    name='ninchanese-datatables',
+    version='0.5.1',
     packages=['datatables'],
     url='https://github.com/orf/datatables/',
     license='MIT',
@@ -14,7 +14,7 @@ setup(
     keywords='sqlalchemy datatables jquery pyramid flask',
     author='Tom',
     author_email='tom@tomforb.es',
-    description='Integrates SQLAlchemy with DataTables (framework agnostic)',
+    description='Integrates SQLAlchemy with DataTables (framework agnostic) - Containing fixes for ninchanese.com',
     zip_safe=False,
     include_package_data=True,
     classifiers=[
